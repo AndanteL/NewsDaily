@@ -1,0 +1,47 @@
+[
+  {
+    "id": "deepseek",
+    "displayName": "DeepSeek",
+    "kind": "openAICompatibleChat",
+    "baseURL": "https://api.deepseek.com/v1",
+    "modelID": "deepseek-chat",
+    "supportsStreaming": true,
+    "note": "OpenAI 兼容 Chat Completions。Base URL 通常以 /v1 结尾。"
+  },
+  {
+    "id": "zhipu-glm",
+    "displayName": "智谱 GLM",
+    "kind": "openAICompatibleChat",
+    "baseURL": "https://open.bigmodel.cn/api/paas/v4",
+    "modelID": "glm-4-flash",
+    "supportsStreaming": true,
+    "note": "OpenAI 兼容 Chat Completions。具体 Model ID 见 https://docs.bigmodel.cn/"
+  },
+  {
+    "id": "xiaomi-mimo",
+    "displayName": "小米 MiMo",
+    "kind": "openAICompatibleChat",
+    "baseURL": "https://mimo.xiaomi.com/api/v1",
+    "modelID": "mimo-7b",
+    "supportsStreaming": true,
+    "note": "OpenAI 兼容 Chat Completions。具体 Model ID 见官方 API 文档。"
+  },
+  {
+    "id": "openai",
+    "displayName": "OpenAI",
+    "kind": "openAIResponses",
+    "baseURL": "https://api.openai.com/v1",
+    "modelID": "gpt-4o-mini",
+    "supportsStreaming": false,
+    "note": "使用 Responses API。若希望用 Chat Completions，请改 API 类型为 openAICompatibleChat 并设置 baseURL 为 https://api.openai.com/v1。"
+  },
+  {
+    "id": "custom",
+    "displayName": "自定义 OpenAI 兼容接口",
+    "kind": "openAICompatibleChat",
+    "baseURL": "https://your-ai-gateway.example.com/v1",
+    "modelID": "your-model-id",
+    "supportsStreaming": true,
+    "note": "适用于 One API、LiteLLM、OpenRouter、Cloudflare AI Gateway 或公司内部网关。"
+  }
+]

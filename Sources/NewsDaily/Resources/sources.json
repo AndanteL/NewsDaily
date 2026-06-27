@@ -1,0 +1,79 @@
+[
+  {
+    "id": "bbc-world",
+    "name": "BBC World",
+    "homepage": "https://www.bbc.com/news/world",
+    "feedURL": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "language": "en",
+    "region": "global",
+    "enabled": true,
+    "weight": 1.0,
+    "note": null
+  },
+  {
+    "id": "cnn-world",
+    "name": "CNN World",
+    "homepage": "https://edition.cnn.com/world",
+    "feedURL": "http://rss.cnn.com/rss/edition_world.rss",
+    "language": "en",
+    "region": "global",
+    "enabled": true,
+    "weight": 1.0,
+    "note": null
+  },
+  {
+    "id": "cnn-top-stories",
+    "name": "CNN Top Stories",
+    "homepage": "https://edition.cnn.com",
+    "feedURL": "http://rss.cnn.com/rss/edition.rss",
+    "language": "en",
+    "region": "global",
+    "enabled": true,
+    "weight": 1.0,
+    "note": null
+  },
+  {
+    "id": "nyt-world",
+    "name": "NYT World",
+    "homepage": "https://www.nytimes.com/section/world",
+    "feedURL": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "language": "en",
+    "region": "global",
+    "enabled": false,
+    "weight": 1.0,
+    "note": null
+  },
+  {
+    "id": "reuters-world",
+    "name": "Reuters World",
+    "homepage": "https://www.reuters.com/world",
+    "feedURL": "https://feeds.reuters.com/Reuters/worldNews",
+    "language": "en",
+    "region": "global",
+    "enabled": false,
+    "weight": 1.0,
+    "note": "Reuters 公开 RSS 可能间歇可用；失效时请关闭或更新配置。"
+  },
+  {
+    "id": "zaobao",
+    "name": "联合早报",
+    "homepage": "https://www.zaobao.com.sg",
+    "feedURL": null,
+    "language": "zh-Hans",
+    "region": "singapore",
+    "enabled": false,
+    "weight": 0.8,
+    "note": "上线前优先确认是否存在稳定官方 RSS 或授权 API；没有时只做打开原网页与收藏，不默认抓全文。"
+  },
+  {
+    "id": "guardian-world",
+    "name": "Guardian World",
+    "homepage": "https://www.theguardian.com/world",
+    "feedURL": "https://www.theguardian.com/world/rss",
+    "language": "en",
+    "region": "global",
+    "enabled": false,
+    "weight": 1.0,
+    "note": null
+  }
+]
